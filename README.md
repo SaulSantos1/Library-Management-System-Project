@@ -3,7 +3,7 @@
 
 ![alt text](/assets/image.png)
 
-##### Functional Requirements | SRS (Library Management System)
+### Functional Requirements | SRS (Library Management System)
 The LMS must have the following functional requirements:
 
 - The LMS should store all information about librarian and other users (student students and faculty members) like their login info , books issued etc.
