@@ -24,3 +24,8 @@ class ProfileType(models.Model):
 
     name = models.CharField(max_length=1, choices=Type.choices, default=Type.STUDENT)
     loan_days = models.PositiveSmallIntegerField()
+    max_books = models.PositiveSmallIntegerField()
+    daily_fine_value = models.DecimalField(max_digits=6, decimal_places=2) 
+
+    def __str__(self):
+        return self.name
