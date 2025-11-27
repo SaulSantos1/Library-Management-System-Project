@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Book, Copies, Publisher
 
-# Register your models here.
+admin.site.register(Book)
+admin.site.register(Publisher)
